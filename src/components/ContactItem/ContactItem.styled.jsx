@@ -12,10 +12,15 @@ export const ContactText = styled.p`
   font-size: 20px;
 `;
 
+export const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 6px;
+`;
+
 export const ContactNumber = styled.span`
   font-weight: 200;
   font-size: 26px;
-  margin-left: 4px;
 `;
 
 export const Button = styled.button`
