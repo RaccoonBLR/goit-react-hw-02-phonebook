@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import 'modern-normalize';
 
 body {
   margin: 0;
@@ -12,4 +12,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  cursor: pointer;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  border: none;
 }
